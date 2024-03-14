@@ -1,21 +1,22 @@
+import buy from "../../assets/buy.png";
+import buy2 from "../../assets/x.png";
+import buy3 from "../../assets/chat.png";
+import buy4 from "../../assets/tel.png";
+
 export default function Hero() {
   return (
-    <section className="container py-[20%]  md:py-[10%]">
+    <section className="px-5 py-[20%]  md:py-[2%]">
       <div className=" ">
-        <div className="flex justify-between mb-7">
+        <div className="flex justify-between mb-2">
           <a
             href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EuBHfYDXGG1FaGREsJbbP8qMMU7PFAuK1nefYMFbp52f&fixed=in"
             target="_blank"
           >
-            <button className="transition-all hover:scale-110 border-4 border-black bg-[#FDF8E0] rounded-sm skew-x-6  text-black  text-[14px] md:text-xl px-3 md:px-5 py-1">
-              Buy
-            </button>
+            <img src={buy} alt="" />
           </a>
 
           <a href="https://twitter.com/Sol_Whitehouse_ " target="_blank">
-            <button className=" bg-[#FDF8E0] border-4 border-black transition-all hover:scale-110 -skew-x-6 rounded-sm text-black  text-[14px] md:text-xl px-3 md:px-5 py-1">
-              TwittER
-            </button>
+            <img src={buy2} alt="" />
           </a>
         </div>
 
@@ -24,15 +25,11 @@ export default function Hero() {
             href="https://dexscreener.com/solana/EuBHfYDXGG1FaGREsJbbP8qMMU7PFAuK1nefYMFbp52f"
             target="_blank"
           >
-            <button className="bg-[#FDF8E0] border-4 border-black transition-all hover:scale-110 skew-x-6 rounded-sm text-black  text-[14px] md:text-xl px-3 md:px-5 py-1">
-              CHART
-            </button>
+            <img src={buy3} alt="" />
           </a>
 
           <a href="https://t.me/WhiteHouse_SOL" target="_blank">
-            <button className=" transition-all border-4 border-black hover:scale-110 -skew-x-6 rounded-sm bg-[#FDF8E0] text-black  text-[14px] md:text-xl px-3 md:px-5 py-1">
-              TeleGRAM
-            </button>
+            <img src={buy4} alt="" />
           </a>
         </div>
       </div>
